@@ -188,3 +188,20 @@ def main():
         "Characters:",
         len(encoded)
     )
+
+    print(
+        "Interaction recorded"
+    )
+
+
+if __name__ == "__main__":
+    try:
+        main()
+    except Exception as error:
+        print(
+            "Execution failed:",
+            error
+        )
+
+print("Finished")
+```
